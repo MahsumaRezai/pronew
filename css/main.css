@@ -42,6 +42,7 @@ ul li a {
     gap: 30px;
     padding-top: 200px;
     padding-left: 200px;
+    padding-bottom: 200px
 }
 @media (max-width:500px){
     .section-introduct {
@@ -96,5 +97,31 @@ ul li a {
     padding: 10px 30px;
     border-radius: 20px ;
     text-decoration: none
+
+ }
+ .about {
+     display: flex;
+     color: red;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin: 0% auto;
+     width: 80%;
+     gap: 30px
+ }
+
+ .about-left {
+     width: 30%
+ }
+ .image {
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 1
+ }
+ .about-rigth{
+    border: 1px solid white;
+    width: 45%
+
 
  }
