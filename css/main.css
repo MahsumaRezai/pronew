@@ -43,6 +43,13 @@ ul li a {
     padding-top: 200px;
     padding-left: 200px;
 }
+@media (max-width:500px){
+    .section-introduct {
+        padding-left: 40px
+
+    }
+
+}
 .introduce-head {
     color: white;
     display: flex;
@@ -58,7 +65,36 @@ ul li a {
     font-size: 20px
 }
 .name-start {
+    font-size: 50px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 800;
     
 }
+.name  {
+    color: #ffbd39
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
 
- 
+ .btn-left {
+    background: #ffbd39;
+    border: 1px solid #ffbd39 !important;
+    color: #000000 !important; 
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none
+    
+ }
+ .btn-rigth {
+    background:#000000;
+    border: 1px solid whitesmoke !important;
+    color: white !important; 
+    padding: 10px 30px;
+    border-radius: 20px ;
+    text-decoration: none
+
+ }
