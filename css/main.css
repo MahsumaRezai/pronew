@@ -120,8 +120,13 @@ ul li a {
     z-index: 1
  }
  .about-rigth{
-    border: 1px solid white;
-    width: 45%
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
 
 
+ }
+ .about-per {
+     color: white
  }
