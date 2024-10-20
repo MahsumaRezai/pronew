@@ -99,59 +99,22 @@ ul li a {
     text-decoration: none
 
  }
+ 
  .about {
-     display: flex;
-     color: red;
-     flex-direction: row;
-     justify-content: center;
-     align-items: center;
-     margin: 0% auto;
-     width: 80%;
-     gap: 30px
- }
+  display: grid;
+  justify-content: center;
+  grid-template-columns:  400px 500px; /*Make the grid smaller than the container*/
+  grid-gap: 100px;
 
- .about-left {
-     width: 30%
+     
  }
- .image {
-    display: block;
-    width: 100%;
-    position: relative;
-    z-index: 1;
- }
- .about-rigth{
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-
-
- }
- .about-per {
+ .about-info {
      color: white
  }
- .nameinto {
-     color: #6c757d;
+ .imageabout {
+     width: 400px;
+
  }
-  .list-information {
-      display: flex;
-      flex-direction: column;
-      gap: 20px
-  }
-  .d-flex {
-    display: flex;
-    flex-direction: row;
-    gap: 40px 
-  }
-  .header-about {
-      display: flex;
-      flex-direction: column;
-      padding-bottom: 30px;
-      margin-top: -200px
-  }
-  .header-about h1 {
-      padding-bottom: 30px;
-      font-size: 45px;
-      font-weight: bold;
-      color: white
-  }
+ .title {
+     color: white
+ }
