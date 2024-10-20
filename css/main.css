@@ -63,17 +63,19 @@ ul li a {
     color: #ffbd39;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 20px
+    font-size: 30px
 }
 .name-start {
-    font-size: 50px;
+    font-size: 70px;
     color: #fff;
     line-height: 1.2;
     font-weight: 800;
     
 }
-.name  {
-    color: #ffbd39
+.nametow  {
+    color: #ffbd39;
+    font-size: 40px;
+    
 }
 .btn {
     display: flex;
@@ -104,17 +106,54 @@ ul li a {
   display: grid;
   justify-content: center;
   grid-template-columns:  400px 500px; /*Make the grid smaller than the container*/
-  grid-gap: 100px;
-
-     
+  grid-gap: 50px;
  }
- .about-info {
-     color: white
- }
+ 
  .imageabout {
      width: 400px;
 
  }
+ .about-info {
+     display: grid;
+     grid-template-rows:  repeat(2,1fr);
+     grid-gap: 30px;
+     padding-top: 30px;
+     font-family: "Poppins", Arial, sans-serif;
+
+ }
  .title {
-     color: white
+     color: white;
+     padding-bottom: 30px
+ }
+ .title h1 { 
+     font-family: sans-serif;
+     font-size: 60px;
+     font-weight: bold;
+}
+ .name {
+     color: whitesmoke;
+     font-size: 18px ;
+     font-weight: bold;
+
+ }
+ .prop {
+    color: #999999;
+     font-size: 18px;
+     font-weight: bold;
+
+ }
+ .d-flex {
+    display: flex;
+    gap: 10px
+
+ }
+ .btn {
+     padding-top: 30px
+ }
+ .btn button {
+     background: #ffbd39;
+     border:  1px solid #ffbd39;
+     padding: 20px 50px ;
+     border-radius: 50px ;
+     font-weight: bold
  }
