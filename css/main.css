@@ -282,3 +282,135 @@ ul li a {
     font-size: 20px
 
  }
+ .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    height: max-content;
+    padding-bottom: 100px;
+ }
+ .sertext {
+     text-align: center;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap:10px;
+     padding-bottom: 10px;
+     padding-top: 10px
+
+ }
+ .sertext h1 {
+     font-size: 60px;
+ }
+ .sertext p {
+    color: #999999;
+ }
+ .servicecard {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap:20px;
+ }
+.sercard {
+    width: 300px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+.sercard:hover {
+    transform: translateY(-20px);
+    border: 1px solid #ffbd39
+    
+}
+.sercard h3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+
+}
+.prog {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px; 
+}
+.progress-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+}
+    .progress-wrap h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      font-weight: 500; 
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+  
+  .progress {
+    height: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #1a1a1a;
+    overflow: visible; 
+    width: 300px
+}
+  
+  .progress-bar {
+    background: #ffbd39;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #000000;
+    font-weight: 600;
+    position: relative;
+    overflow: visible;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+    .progress-bar:after {
+      position: absolute;
+      top: -2px;
+      right: 0;
+      width: 34px;
+      height: 34px;
+      content: '';
+      background: #ffbd39;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      border-radius: 2px;
+      opacity: 0;
+     }
+    .progress-bar span {
+      position: absolute;
+      top: -38px;
+      right: 0;
+      font-size: 20px;
+      font-weight: 400;
+      color: #fff;
+     }
