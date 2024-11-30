@@ -339,11 +339,13 @@ ul li a {
 
 }
 .prog {
-    display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 20px; 
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   
+    
 }
 .progress-wrap {
     width: 100%;
