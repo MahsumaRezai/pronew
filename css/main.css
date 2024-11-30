@@ -362,6 +362,7 @@ ul li a {
         justify-content: center;
         align-items: center;
         gap: 20px;
+        padding-bottom: 50px
 
     }
   
@@ -418,4 +419,33 @@ ul li a {
       font-size: 20px;
       font-weight: 400;
       color: #fff;
+     }
+     /*
+      projectes
+
+     */
+     .projectes {
+         padding: 20px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         gap: 20px
+     }
+
+
+
+     .projectimag {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 30px;
+       flex-wrap: wrap;
+       width: 80%;
+       margin:  0 auto;
+     }
+     .projectassest {
+         width: 500px;
+         height: 300px;
+         border:  2px solid #ffbd39;
      }
