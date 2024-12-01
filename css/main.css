@@ -460,4 +460,52 @@ ul li a {
        background-position: center center;
        
      }
+     .freework {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         gap: 40px;
+         padding-top: 230px
+     }
+     .freework h1  {
+         color: white;
+         font-size: 50px;
+         font-weight: bold
+     }
+     .freework h1:hover {
+         color: #ffbd39
+     }
      
+     .btnfree {
+         padding: 20px 40px;
+         background: #ffbd39;
+         color: #000000;
+         border: unset;
+         border-radius: 50px
+     }
+     .contactas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+     }
+     .contactastext {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        color: white;
+
+     }
+     .contactastext h1  {
+         color: white;
+         font-size: 50px;
+         font-weight: bold;
+         padding-top: 40px
+     }
+     .contactastext p {
+         color: #6c757d
+     }
