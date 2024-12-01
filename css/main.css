@@ -509,3 +509,30 @@ ul li a {
      .contactastext p {
          color: #6c757d
      }
+     .imgeascontact {
+        
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+        flex-direction: column;
+        gap: 20px
+     }
+     .imagas {
+         background: #1a1a1a;
+         width: 100px;
+         height: 100px;
+         border-radius: 100px;
+         justify-content: center;
+         align-items: center;
+         display: flex;
+     }
+     .paracontact {
+         color: white
+     }
+     .contactwarrp {
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+        flex-direction: row;
+        gap: 50px
+     }
