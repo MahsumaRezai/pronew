@@ -9,6 +9,7 @@
      font-family:"Poppins", Arial, sans-serif;
 
 
+
  }
  .head {
      color: white;
@@ -445,15 +446,18 @@ ul li a {
        margin:  0 auto;
      }
      .projectassest {
-         width: 500px;
-         height: 300px;
-         border:  2px solid #ffbd39;
+         width: 450px;
+         height: 250px;
+         box-shadow: 5px 5px 5px 5px #1a1a1a
      }
 
 
-     .freelancing {
+     .ftco-section {
        width: 100%;
        height: 600px;
-       background: url('/image/bg.jpg')
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center center;
+       
      }
      
