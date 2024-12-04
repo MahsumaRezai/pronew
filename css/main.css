@@ -7,6 +7,9 @@
  .main {
      background: #000000;
      font-family:"Poppins", Arial, sans-serif;
+     margin: 0;
+     padding: 0%;
+     height: max-content;
 
 
 
@@ -490,6 +493,7 @@ ul li a {
         align-items: center;
         flex-direction: column;
         gap: 40px;
+        padding-bottom: 100px
      }
      
      .contactastext {
@@ -557,3 +561,45 @@ ul li a {
          gap: 10px;
          width: 150px
      }
+     /*
+
+    form
+
+     */
+     .formlayout{
+        display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+         width: 80%;
+         margin: 0 auto;
+         height: 600px;
+         
+
+     }
+     .imageform {
+         background: #212529;
+         width: 30%;
+         height: 600px;
+         padding: 20px
+
+
+     }
+     .formcontact {
+         background:ghostwhite;
+         width: 40%;
+         height: 600px;
+         padding: 20px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+
+     }
+     .imagesform {
+         width: 200px;
+         height: 200px;
+         border-radius: 200px
+     }
+
