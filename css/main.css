@@ -536,3 +536,9 @@ ul li a {
         flex-direction: row;
         gap: 50px
      }
+     .link {
+         color: white;
+         font-size: 15px;
+         
+
+     }
