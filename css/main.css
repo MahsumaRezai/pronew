@@ -491,6 +491,7 @@ ul li a {
         flex-direction: column;
         gap: 40px;
      }
+     
      .contactastext {
         display: flex;
         justify-content: center;
@@ -536,9 +537,23 @@ ul li a {
         flex-direction: row;
         gap: 50px
      }
+     @media screen and (max-width:1000px){
+        .contactwarrp {
+            flex-direction: column
+
+        }
+    }
      .link {
          color: white;
          font-size: 15px;
-         
 
+
+     }
+     .cardlink {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 10px;
+         width: 150px
      }
