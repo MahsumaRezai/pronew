@@ -592,10 +592,16 @@ ul li a {
          padding: 20px;
          display: flex;
          flex-direction: column;
-         justify-content: center;
-         align-items: center;
+         gap:20px;
 
 
+     }
+     .form-control {
+         width: 100%;
+         padding: 20px;
+         font-size: 15px;
+         border: 1px solid gainsboro;
+         border-radius: 10px
      }
      .imagesform {
          width: 200px;
