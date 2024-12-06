@@ -147,6 +147,10 @@ ul li a {
  }
  .imageabout {
      width: 400px;
+     border-radius: 10px;
+     box-shadow: 2px 2px 2px 2px #1a1a1a
+
+
 
  }
  .about-info {
