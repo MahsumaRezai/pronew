@@ -90,7 +90,7 @@ ul li a {
     color: #ffbd39;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 30px
+    font-size: 40px
 }
 .name-start {
     font-size: 70px;
@@ -619,3 +619,23 @@ ul li a {
          border-radius: 200px
      }
 
+.footer {
+    background: #1a1a1a;
+    widows: 100%;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+
+}
+.footer h1 {
+    font-size: 20px
+}
+.footer a {
+    color: #ffbd39;
+    padding: 20px
+}
