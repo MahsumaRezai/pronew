@@ -603,6 +603,12 @@ ul li a {
          border: 1px solid gainsboro;
          border-radius: 10px
      }
+     .inputbtn {
+         padding: 20px 30px;
+         background: #ffbd39;
+         border-radius: 20px;
+         border: unset
+     }
      .imagesform {
          width: 200px;
          height: 200px;
