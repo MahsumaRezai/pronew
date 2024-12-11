@@ -669,3 +669,25 @@ ul li a {
     backdrop-filter: blur(3px);
     z-index: 5;
 }
+
+/*
+ CV
+*/
+.head-cv {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px
+
+}
+.link-cv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: blue
+}
