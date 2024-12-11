@@ -21,16 +21,9 @@ const showmodal = function () {
 for (let i = 0; i < show.length; i++) {
     show[i].addEventListener('click', showmodal)
     close_modal.addEventListener('click', hidemodal)
+
 }
+
 overlay.addEventListener('click', hidemodal)
 modal.addEventListener('click', hidemodal)
-
-
-
-
-
-
-
-
-
 
