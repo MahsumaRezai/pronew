@@ -132,12 +132,16 @@ ul li a {
     border-radius: 20px;
     text-decoration: none;
     background: #ffbd39;
-    width: 300px 
+    width: 300px ;
+
+
  }
  .show:hover {
-     transform: translateY(-5px);
-     translate: transform;
-     transition: cubic-bezier(0.39, 0.575, 0.565, 1)
+     transform: scale(1.1);
+     transition: ease-in;
+    box-shadow:  5px 5px 5px 5px #1a1a1a;
+    
+
      
  }
  .btn-rigth {
@@ -259,6 +263,9 @@ ul li a {
      opacity: 1;
      padding: 20px;
      line-height: 1.625;
+     box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.1)
+
+     
 
  }
  @media screen and (max-width:1000px) {
@@ -598,11 +605,10 @@ ul li a {
 
      }
      .imageform {
-         background: #212529;
          width: 30%;
          height: 600px;
-         padding: 20px
-
+         padding: 20px;
+         box-shadow:  5px 5px 5px 5px #1a1a1a
 
      }
      .formcontact {
@@ -613,6 +619,8 @@ ul li a {
          display: flex;
          flex-direction: column;
          gap:20px;
+         box-shadow:  5px 5px 5px 5px #1a1a1a
+
 
 
      }
@@ -636,8 +644,7 @@ ul li a {
      }
 
 .footer {
-    background: #1a1a1a;
-    widows: 100%;
+    width: 100%;
     padding: 20px;
     text-align: center;
     color: whitesmoke;
@@ -645,7 +652,9 @@ ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px
+    gap: 10px;
+    height: 250px;
+   
 
 }
 .footer h1 {
@@ -662,10 +671,9 @@ ul li a {
 */
 
 .modal {
-    width: 50%;
-    background: white;
+    width: 48%;
     position: absolute;
-    top:52%;
+    top:60%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 20px;
@@ -673,13 +681,16 @@ ul li a {
     z-index: 10;
     margin-top: 50px;
     border-radius: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    color: white;
+    border:  2px solid #ffbd39
 
 }
 
 .close-modal {
     background: white;
     color: aliceblue;
-    border: 2px solid red;
+    border: 2px solid #ffbd39;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
     position: relative;
     left: 95%;
@@ -731,6 +742,7 @@ ul li a {
     flex-direction: column;
     gap: 10px;
     padding-bottom: 20px;
+    padding-top: 10px;
 }
 .list-cv h1  {
     font-size: 19px;
