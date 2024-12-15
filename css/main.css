@@ -135,14 +135,23 @@ ul li a {
     width: 300px ;
 
 
+
  }
  .show:hover {
-     transform: scale(1.1);
-     transition: ease-in;
-    box-shadow:  5px 5px 5px 5px #1a1a1a;
+     width: 200px;
+    transition:  all ease-in 2s;
+    border-radius: 5px;
+    padding: 25px 50px;
+
     
 
      
+ }
+ .btncv:hover {
+    width: 200px;
+    transition:  all ease-in 2s;
+    border-radius: 5px;
+    padding: 25px 50px;
  }
  .btn-rigth {
     background:#000000;
@@ -276,7 +285,8 @@ ul li a {
  }
  .card:hover {
      cursor: pointer;
-     box-shadow:  1px 1px 1px 1px #ffbd39
+     box-shadow:  1px 1px 1px 1px #ffbd39;
+     transition: all ease-in 3s;
 
  }
  .titlecard {
