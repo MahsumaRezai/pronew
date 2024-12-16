@@ -4,6 +4,9 @@ const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const close_modal = document.querySelector('.close-modal');
 const show = document.querySelectorAll('.show');
+let form = document.querySelectorAll('.form-control');
+let formedit = document.querySelectorAll('form-control').style.border = " 2px solid red "
+
 
 
 
@@ -30,5 +33,18 @@ for (let i = 0; i < show.length; i++) {
 overlay.addEventListener('click', hidemodal);
 modal.addEventListener('click', hidemodal);
 
+// change the text 
+function demo() {
+    document.getElementById('demo').innerHTML = "I'm a Web desginer based in Herat,AFG"
+}
+// form 
+const formhandler = function () {
+    if (form === 0) {
+        return formedit
 
 
+    }
+    else {
+        alert("dldll")
+    }
+}
