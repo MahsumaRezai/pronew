@@ -1,11 +1,11 @@
-"use strict";
+//"use strict";
 
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const close_modal = document.querySelector('.close-modal');
 const show = document.querySelectorAll('.show');
-let form = document.querySelectorAll('.form-control');
-let formedit = document.querySelectorAll('form-control').style.border = " 2px solid red "
+const form = document.querySelectorAll('.form-control');
+
 
 
 
@@ -35,16 +35,25 @@ modal.addEventListener('click', hidemodal);
 
 // change the text 
 function demo() {
-    document.getElementById('demo').innerHTML = "I'm a Web desginer based in Herat,AFG"
+    document.getElementById('demo').innerHTML = "I'm a Web desginer based in Herat,AFG";
+
+
 }
 // form 
-const formhandler = function () {
-    if (form === 0) {
-        return formedit
+function formhandler() {
+    for (let i = 0; i < form.length; i++) {
+        if (form < 0) {
+            document.getElementById("form-control").style.background = "red";
+
+
+        }
+        else {
+            document.getElementById("form-control").style.border = "35px solid green";
+
+        }
 
 
     }
-    else {
-        alert("dldll")
-    }
+
+
 }

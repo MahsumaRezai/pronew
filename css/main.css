@@ -365,6 +365,11 @@ ul li a {
      align-items: center;
      gap:20px;
  }
+ @media screen and (max-width:1500px) {
+     .servicecard {
+         flex-direction: column
+     }
+ }
 .sercard {
     width: 300px;
     height: 200px;
@@ -397,6 +402,11 @@ ul li a {
    gap: 20px;
    
     
+}
+@media screen and (max-width:1500px) {
+    .prog {
+        flex-direction: column
+    }
 }
 .progress-wrap {
     width: 100%;
@@ -631,6 +641,22 @@ ul li a {
          
 
      }
+     @media screen and (max-width:2400px) {
+        .formlayout {
+            flex-direction: column;
+            margin: 300px;
+            justify-content: center;
+         align-items: center;
+        }
+    }
+    @media screen and (max-width:1500px) {
+        .formlayout {
+            flex-direction: column;
+            margin: 200px;
+            justify-content: center;
+         align-items: center;
+        }
+    }
      .imageform {
          width: 30%;
          height: 600px;
@@ -638,6 +664,12 @@ ul li a {
          box-shadow:  5px 5px 5px 5px #1a1a1a
 
      }
+      @media screen and (max-width:1500px) {
+        .imageform {
+            width: max-content;
+            margin-top: 100px
+        }
+    }
      .formcontact {
          background:ghostwhite;
          width: 40%;
@@ -651,6 +683,12 @@ ul li a {
 
 
      }
+     @media screen and (max-width:1500px) {
+        .formcontact {
+            width: max-content
+        }
+    }
+    
      .form-control {
          width: 100%;
          padding: 20px;
@@ -683,6 +721,12 @@ ul li a {
     height: 250px;
    
 
+}
+@media screen and (max-width:1500px){
+    .footer {
+        height: 400px;
+        padding-top: 300px
+    }
 }
 .footer h1 {
     font-size: 20px
