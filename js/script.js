@@ -5,6 +5,9 @@ const overlay = document.querySelector('.overlay');
 const close_modal = document.querySelector('.close-modal');
 const show = document.querySelectorAll('.show');
 
+
+
+
 const hidemodal = function () {
     modal.classList.add('hidden');
     overlay.classList.add('hidden');
@@ -24,6 +27,8 @@ for (let i = 0; i < show.length; i++) {
 
 }
 
-overlay.addEventListener('click', hidemodal)
-modal.addEventListener('click', hidemodal)
+overlay.addEventListener('click', hidemodal);
+modal.addEventListener('click', hidemodal);
+
+
 
