@@ -55,29 +55,32 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
     checkInput(); // Check the input when form is submitted
 });
 
-// Optional: Check on input change
 document.getElementById("form-control").addEventListener("input", checkInput);
 
 function downloadCVt() {
     const cvData = {
-        name: "John Doe",
-        email: "john.doe@example.com",
-        experience: ["Job 1", "Job 2"],
+        name: "Mahsoumeh ",
+        email: "mahsuma.rezai@gmail.com",
+        experience: [" ✔ 2024 : work on more 80 project in coding section three are in my GitHub account.",
+            "✔ 2024 : work with CTI in Front-end team.",
+            " ✔ 2023 :  Teaching coding for girls with online tools  .",
+
+
+        ],
     };
-    const cvString = JSON.stringify(cvData, null, 2);  
-    const blob = new Blob([cvString], { type: "application/json" }); // Adjust the type if it's not JSON 
-    // Create a download link using a Blob URL 
+    const cvString = JSON.stringify(cvData, null, 2);
+    const blob = new Blob([cvString], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'myCV.json'; // Or 'myCV.txt', etc.  depending on the data type 
+    a.download = 'myCV.json';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
-    URL.revokeObjectURL(url); // Clean up the URL 
+    URL.revokeObjectURL(url);
 }
 // Example button to trigger the download 
 
 function downloadCV() {
-    document.getElementById('downloadLink').click();
+    document.getElementById('downloadLink');
 } 
