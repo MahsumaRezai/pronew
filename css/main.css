@@ -111,8 +111,24 @@ ul li a {
     color: #ffbd39;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 40px
+    font-size: 40px;
+    animation-name: hello;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+@keyframes hello {
+    0%   {transition: all ease-in 2s; transform: translateY(-10px) ;}
+    25%  {transition: all ease-in-out 4s ;transform: scale(1.1)}
+    50%  {transition: all ease-out 5s ;transform: translateX(-20px)}
+    75%  {transition: all ease-in 3s ;transform: scale(1.2)}
+    100% {transition: all ease-in-out 2s;transform: translateY(10px)}
+  }
+  
+  
+ 
 .name-start {
     font-size: 70px;
     color: #fff;
@@ -904,3 +920,6 @@ css animation
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
+ 
+ 
+  

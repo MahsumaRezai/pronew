@@ -39,7 +39,7 @@ function demo() {
 
 }
 // form 
-function checkInput() {
+function checkInputt() {
     var inputField = document.getElementById("form-control");
 
     if (inputField.value.trim() === "") {
