@@ -4,7 +4,6 @@ const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const close_modal = document.querySelector('.close-modal');
 const show = document.querySelectorAll('.show');
-const form = document.querySelectorAll('.form-control');
 
 
 
@@ -40,20 +39,45 @@ function demo() {
 
 }
 // form 
-function formhandler() {
-    for (let i = 0; i < form.length; i++) {
-        if (form < 0) {
-            document.getElementById("form-control").style.background = "red";
+function checkInput() {
+    var inputField = document.getElementById("form-control");
 
-
-        }
-        else {
-            document.getElementById("form-control").style.border = "35px solid green";
-
-        }
-
-
+    if (inputField.value.trim() === "") {
+        inputField.classList.remove('valid');
+        inputField.classList.add('invalid');
+    } else {
+        inputField.classList.remove('invalid');
+        inputField.classList.add('valid');
     }
-
-
 }
+document.getElementById("myForm").addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent form from submitting
+    checkInput(); // Check the input when form is submitted
+});
+
+// Optional: Check on input change
+document.getElementById("form-control").addEventListener("input", checkInput);
+
+function downloadCVt() {
+    const cvData = {
+        name: "John Doe",
+        email: "john.doe@example.com",
+        experience: ["Job 1", "Job 2"],
+    };
+    const cvString = JSON.stringify(cvData, null, 2);  
+    const blob = new Blob([cvString], { type: "application/json" }); // Adjust the type if it's not JSON 
+    // Create a download link using a Blob URL 
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'myCV.json'; // Or 'myCV.txt', etc.  depending on the data type 
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url); // Clean up the URL 
+}
+// Example button to trigger the download 
+
+function downloadCV() {
+    document.getElementById('downloadLink').click();
+} 

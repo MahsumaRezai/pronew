@@ -44,16 +44,18 @@
         <!--popoapp-->
         <div class="modal hidden">
             <button class="close-modal">❌</button>
+            <div class="headmaster">
+                <div class="head-cv">
+                    <h1>Mahsoumeh Rezai</h1>
+                    <p>Herat, Afghanistan</p>
+                </div>
+                <div class="link-cv">
+                    <a>https://github.com/MahsumaRezai</a>
+                    <a>mahsuma.rezai8@gmail.com</a>
+                    <a>+93748871090 / 0796501337 </a>
+                </div>
+            </div>
 
-            <div class="head-cv">
-                <h1>Mahsoumeh Rezai</h1>
-                <p>Herat, Afghanistan</p>
-            </div>
-            <div class="link-cv">
-                <a>https://github.com/MahsumaRezai</a>
-                <a>mahsuma.rezai8@gmail.com</a>
-                <a>+93748871090 / 0796501337 </a>
-            </div>
 
             <!---->
 
@@ -146,7 +148,7 @@
                     </ul>
                 </div>
                 <div class="btn">
-                    <button class="btncv">Download CV</button>
+                    <button class="btncv" onclick="downloadCVt()">Download CV</button>
                 </div>
             </div>
         </div>
@@ -205,7 +207,9 @@
             </div>
             <!---->
             <div class="btntow">
-                <button>Download CV</button>
+                <a id="downloadLink" href="/cv/Masoumeh Rezai CV.pdf" download="myCV.pdf" style="display:none;">Download
+                    CV</a>
+                <button onclick="downloadCVt()">Download</button>
             </div>
             <!---->
         </div>
@@ -344,11 +348,6 @@
             </div>
 
             <!---->
-
-
-
-
-
         </section>
         <!--end My Skills-->
         <!--Our Projects-->
@@ -564,7 +563,7 @@
 
             </div>
             <!---->
-            <form action="#" class="formcontact">
+            <form class="formcontact" id="myForm">
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Your Name">
                 </div>
@@ -578,7 +577,7 @@
                     <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
                 </div>
                 <div class="form-group">
-                    <input class="inputbtn" onsubmit=" formhandler()" value="Send" />
+                    <input class="inputbtn" onsubmit="checkInput()" value="Send" />
                 </div>
             </form>
 

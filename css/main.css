@@ -71,6 +71,13 @@ ul li a {
     }
 
 }
+@media screen and  (max-width:500px){
+    .section-introduct {
+       font-size: inherit
+       
+    }
+
+}
 .introduce-head {
     color: white;
     display: flex;
@@ -510,12 +517,31 @@ ul li a {
          height: 250px;
          box-shadow: 5px 5px 5px 5px #1a1a1a
      }
+     @media screen and (max-width:450px) {
+         .projectassest {
+             width: 250px;
+             height: 150px;
+         }
+     }
      .projectcontent:hover {
          
          transition: all ease-in 3s;
          transform: scale(1.2);
         
 
+     }
+     .headmaster {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+
+     }
+     @media screen and (max-width:1024px){
+         .headmaster {
+            flex-direction: column
+
+         }
      }
 
 
@@ -641,10 +667,10 @@ ul li a {
          
 
      }
-     @media screen and (max-width:2400px) {
+     @media screen and (max-width:1024px) {
         .formlayout {
-            flex-direction: column;
-            margin: 300px;
+            flex-direction: row;
+            margin-top: 200px;
             justify-content: center;
          align-items: center;
         }
@@ -652,7 +678,16 @@ ul li a {
     @media screen and (max-width:1500px) {
         .formlayout {
             flex-direction: column;
-            margin: 200px;
+            margin-top: 200px;
+            justify-content: center;
+         align-items: center;
+        }
+    }
+
+    @media screen and (max-width:550px) {
+        .formlayout{
+            flex-direction: column;
+            margin-top: 200px;
             justify-content: center;
          align-items: center;
         }
@@ -793,6 +828,11 @@ ul li a {
     gap: 10px;
     padding-bottom: 10px
 
+}
+@media screen and (max-width:1024px){
+    .head-cv {
+        flex-direction: column
+    }
 }
 .head-cv h1 {
     padding-top: 50px;
